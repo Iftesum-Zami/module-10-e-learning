@@ -49,30 +49,49 @@ span{
     background-color: white;
     box-shadow: 5px 5px 10px lightgray;
 }
-.card img{
-    padding: 15px 17px 0px 17px;
+
+/*-----------------------------CARD------------------------------------*/
+
+.courses h1{
+    text-align: center;
+}
+
+.card-footer{
+    border: none;
+    background-color: white;
+    padding: 10px 5px;
+}
+.card-footer img{
+    height: 20px;
+    width: 20px;
+}
+.card-footer span{
+    font-size: 14px;
+    color: black !important;
+}
+.card-body{
+    padding: 0px 5px;
 }
 .card{
     border: none;
-    box-shadow: 5px 5px 10px lightgray;
     border-radius: 15px;
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 15px 18px 0 18px;
 }
-.card-footer{
-    border-top: none;
-    background-color: orange;
-    padding: 10px 10px;
+.card-text{
+    font-size: 16px;
+    color: red;
 }
-.footer-img img{
-    height: 18%;
-    width: 18%;
-    padding-bottom: 15px;
-}
-.courses, .testimonial h1{
-    text-align: center;
+.card-title{
+    font-weight: 700;
+    margin-top: 10px;
 }
 
 /*------------------------testimonial-----------------------------*/
 
+.testimonial h1{
+    text-align: center;
+}
 .testimonial{
     background-color: white;
 }
@@ -135,8 +154,6 @@ footer{
     list-style: none;
     padding-left: 0;
 }
-
-
-/*
-
-*/
+.footer li:hover{
+    color: white;
+}
