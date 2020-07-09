@@ -1,0 +1,135 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.container{
+    margin-bottom: 100px;
+}
+h1{
+    font-weight: bolder;
+}
+.home{
+    width: 100%;
+    
+    left: 0px;
+    top: 0px;
+    background-color: #F0FFF0;  
+}
+
+.click-me{
+    background-color: #21B573;
+    color: white;
+    border: none;
+    border-radius: 33px;
+    padding: 5px 18px;
+    cursor: pointer;
+}
+.navbar-toggler{
+    outline: none;
+}
+.illustration{
+    width: 100%;
+}
+span{
+    color: #21B573;
+}
+.category img{
+    width: 60px;
+}
+.category{
+    width: 240px;
+    height: 220px;
+    background-color: #f0fffa;
+    padding: 25px 20px 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.category:hover{
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card img{
+    padding: 15px 17px 0px 17px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 15px;
+}
+.card-footer{
+    border-top: none;
+    background-color: orange;
+    padding: 10px 10px;
+}
+.footer-img img{
+    height: 18%;
+    width: 18%;
+    padding-bottom: 15px;
+}
+.courses, .testimonial h1{
+    text-align: center;
+}
+.testimonial{
+    background-color: white;
+}
+small{
+    font-size: 12px;
+}
+.testimonial div img{
+    width: 200px;
+}
+
+/*------------------------form-----------------------------*/
+
+form{
+    width: 200px;
+}
+#form h3{
+    text-align: center;
+    font-weight: bolder;
+    color: orange;
+}
+
+/*------------------------carousel-----------------------------*/
+#educationalist{
+    color: peru;
+    text-align: center;
+    font-weight: bolder;
+}
+.slider{
+    background-color: #F0FFF0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+
+/*------------------------footer-----------------------------*/
+
+.list-header{
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white !important;
+}
+footer{
+    text-align: center;
+}
+.footer{
+    color: lightgray;
+    background-color: #282531;
+    width: 100%;
+}
+.footer .container .row div{
+    margin-top: 40px;
+}
+.footer-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/*
+
+*/
